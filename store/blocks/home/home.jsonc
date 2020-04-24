@@ -1,0 +1,176 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "tab-layout#home",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "tab-layout#home",
+      "info-card#home",
+      "rich-text#question",
+      "rich-text#link",
+      "newsletter"
+    ]
+  },
+  "tab-layout#home":{
+    "children":[
+        "tab-list#home",
+        "tab-content#home"
+    ]
+},
+"tab-list#home": {
+    "children": [
+        "tab-list.item#home1",
+        "tab-list.item#home2",
+        "tab-list.item#home3"
+    ]
+},
+"tab-list.item#home1":{
+    "props": {
+        "tabId": "home",
+        "label": "Mens",
+        "defaultActiveTab":true
+    }
+
+},
+"tab-list.item#home2":{
+    "props": {
+        "tabId": "home2",
+        "label": "Womens"
+    }
+
+},
+"tab-list.item#home3":{
+    "props": {
+        "tabId": "home3",
+        "label": "Youth"
+    }
+
+},
+"tab-content#home":{
+    "children":[
+        "tab-content.item#home",
+        "tab-content.item#home2",
+        "tab-content.item#home3"
+    ]
+
+},
+"tab-content.item#home":{
+    "children": [
+        "shelf#home"
+    ],
+    "props": {
+        "tabId":"home"
+    }
+},
+"tab-content.item#home2":{
+    "children": [
+        "shelf#home2"
+    ],
+    "props": {
+        "tabId":"home2"
+    }
+},
+"tab-content.item#home3":{
+    "children": [
+        "shelf#home3"
+    ],
+    "props": {
+        "tabId":"home3"
+    }
+},
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/bannerunilever.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "assets/bannerunilever.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle",
+      "tag": "h1"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  }
+}

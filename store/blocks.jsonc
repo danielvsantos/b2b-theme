@@ -48,7 +48,28 @@
       "add-to-cart-button"
     ]
   },
-
+  "challenge-block#description": {
+   "blocks": [
+     "challenge-content#description",
+     "challenge-fallback#description"
+   ]
+ },
+  "challenge-content#description": {
+    "children": [
+      "product-list-price#summary"
+    ]
+  },
+  "challenge-fallback#description": {
+    "children": [
+      "rich-text#challenge-description"
+    ]
+  },
+  "rich-text#challenge-description": {
+    "props": {
+      "text": "Please login to see the price",
+      "blockClass": "challengeDescription"
+    }
+  },
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,

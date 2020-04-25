@@ -1,0 +1,51 @@
+{
+  "store.custom#registration": {
+    "blocks": [
+      "modal-trigger#register"
+    ]
+  },
+  "modal-trigger#register": {
+    "children": [
+      "rich-text#register",
+      "modal-layout#register"
+    ]
+  },
+  "rich-text#register": {
+    "props": {
+      "text": "Login/Registrar"
+    }
+  },
+  "modal-layout#register": {
+    "children": [
+      "form"
+    ]
+  },
+  "form": {
+    "props":{
+     "entity": "RE",
+      "schema": "formweb"
+  },
+  "blocks": ["form-success"] 
+  },
+  "form-success":{
+  "children": [
+    "login#form"
+  ]
+  },
+  "login#form": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPraceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "rich-text#thank-you": {
+  "props": {
+    "text": "Gracias!",
+    "blockClass": "thank-you-message"
+  },
+  "title": "Thank you message"
+  }
+}

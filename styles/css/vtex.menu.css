@@ -1,0 +1,44 @@
+@media screen and (min-width: 40em) {
+    .styledLinkContent--header-department-category-title{
+      color:blue;
+    }
+    .styledLinkContainer--header-department-category-title{
+        padding-bottom: 100px;
+      }
+  }
+  
+  @media screen and (min-width: 50em) {
+    .styledLinkContent--header-department-category-title{
+      color: blue;
+    }
+    .styledLinkContainer--header-department-category-title{
+        padding-bottom: 100px;
+      }
+  }
+  
+  
+  @media screen and (min-width: 64em) {
+    .styledLinkContent--header-department-category-title{
+      color: blue;
+    }
+    .styledLinkContainer--header-department-category-title{
+        padding-bottom: 20px;
+      }
+      .menuContainer--header-department-submenu-col{
+        padding-right: 30px;
+        
+      }
+  }
+  
+  @media screen and (min-width: 82em) {
+    .styledLinkContent--header-department-category-title{
+      color: blue;
+    }
+    .styledLinkContainer--header-department-category-title{
+        padding-bottom: 20px;
+      }
+    .menuContainer--header-department-submenu-col{
+        padding-right: 30px;
+        
+      }
+  }

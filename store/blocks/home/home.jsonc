@@ -8,7 +8,6 @@
       "tab-layout#home",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "tab-layout#home",
       "info-card#home",
       "rich-text#question",
       "rich-text#link",
@@ -68,7 +67,7 @@
 },
 "tab-content.item#home2":{
     "children": [
-        "shelf#home2"
+        "shelf#home"
     ],
     "props": {
         "tabId":"home2"
@@ -76,7 +75,7 @@
 },
 "tab-content.item#home3":{
     "children": [
-        "shelf#home3"
+        "shelf#home"
     ],
     "props": {
         "tabId":"home3"

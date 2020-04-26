@@ -1,0 +1,111 @@
+{
+    "modal-trigger#register": {
+        "children": [
+          "rich-text#register",
+          "modal-layout#register"
+        ]
+      },
+      "rich-text#register": {
+        "props": {
+          "text": "Registrar"
+        }
+      },
+      "modal-layout#register": {
+        "children": [
+            "flex-layout.row#registration-title",
+            "flex-layout.row#registration-description",
+            "flex-layout.row#registration-content"
+        ]
+      },
+      "flex-layout.row#registration-title":{
+        "children": [
+            "flex-layout.col#registration-title"
+        ],
+        "props": {
+            "preventHorizontalStretch": true
+        }
+      },
+      "flex-layout.col#registration-title":{
+        "children": [
+            "rich-text#register-title"
+        ],
+        "props": {
+            "width": "70%",
+            "horizontalAlign": "center"
+        }
+        },
+      "rich-text#register-title":{
+          "props":{
+              "text": "Acceda y gañe descuentos exclusivos",
+              "blockClass": "register-title"
+          }
+      },
+      "flex-layout.row#registration-description":{
+        "children": [
+            "flex-layout.col#registration-description"
+        ],
+        "props": {
+            "preventHorizontalStretch": true
+        }
+      },
+      "flex-layout.col#registration-description":{
+        "children": [
+            "rich-text#register-description"
+        ],
+        "props": {
+            "width": "70%",
+            "horizontalAlign": "center"
+        }
+    },
+      "rich-text#register-description":{
+        "props":{
+            "text": "Repor su stock nunca fue tan sencillo!",
+            "blockClass": "register-description"
+        }
+    },
+      "flex-layout.row#registration-content":{
+        "children": [
+            "flex-layout.col#registration-content"
+        ],
+        "props": {
+            "preventHorizontalStretch": true
+        }
+      },
+      "flex-layout.col#registration-content":{
+        "children": [
+            "form#modal-registro"
+        ],
+        "props": {
+            "width": "70%",
+            "horizontalAlign": "center"
+        }
+      },
+      "form#modal-registro": {
+        "props":{
+         "entity": "RE",
+          "schema": "formweb"
+      },
+      "blocks": ["form-success"] 
+      },
+      "form-success":{
+      "children": [
+        "login#form"
+      ]
+      },
+      "login#form": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPraceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true
+        }
+      },
+      "rich-text#thank-you": {
+      "props": {
+        "text": "Gracias!",
+        "blockClass": "thank-you-message"
+      },
+      "title": "Thank you message"
+      }
+}

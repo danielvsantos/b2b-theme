@@ -87,4 +87,18 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+}
+
+.container--register-title {
+  color: #f9136e;
+  font-size: 32px;
+
+
+}
+
+.container--register-description {
+  color: #545454;
+  font-size: 22px;
+ 
 }

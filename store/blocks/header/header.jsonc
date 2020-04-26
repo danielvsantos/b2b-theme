@@ -21,8 +21,7 @@
   },
   "flex-layout.row#2-desktop": {
 		"children": [
-      "flex-layout.col#topbar-col-1",
-      "flex-layout.col#topbar-col-2"
+      "notification.bar#home"
 		],
 		"props": {
 			"blockClass": "topBarLinks",
@@ -30,92 +29,9 @@
 			"inverted": "true"
 		}
   },
-  "flex-layout.col#topbar-col-1": {
-		"children": [
-      "notification.bar#home"
-		],
-		"props": {
-		
-		}
-  },
-  "flex-layout.col#topbar-col-2": {
-		"children": [
-      "flex-layout.row#topbar-col-2"
-		],
-		"props": {
-			
-		}
-  },
-  "flex-layout.row#topbar-col-2": {
-		"children": [
-      "rich-text#topBarLinkMyOrders",
-      "modal-trigger#register"
-		],
-		"props": {
-			
-		}
-  },
-
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
-    }
-  },
-  "rich-text#topBarLink3": {
-		"props": {
-			"textAlignment": "CENTER",
-			"textPosition": "RIGHT",
-			"text": "[CUSTOMER SERVICE](/contact-us) &nbsp; ",
-			"textColor": "c-on-action-primary",
-			"blockClass": "topBarLink",
-			"font": "t-mini"
-		}
-	},
-	"rich-text#topBarLink4": {
-		"props": {
-			"textAlignment": "CENTER",
-			"textPosition": "RIGHT",
-			"text": " &nbsp; [GIFT CARDS](/gift-cards) &nbsp; ",
-			"textColor": "c-on-action-primary",
-			"blockClass": "topBarLink",
-			"font": "t-mini"
-		}
-	},
-	"rich-text#topBarLink5": {
-		"props": {
-			"textAlignment": "CENTER",
-			"textPosition": "RIGHT",
-			"text": " &nbsp; [STORE LOCATOR](/StoreLocator)",
-			"textColor": "c-on-action-primary",
-			"blockClass": "topBarLink",
-			"font": "t-mini"
-		}
-	},
-	"rich-text#topBarLinkMyOrders": {
-		"props": {
-			"textAlignment": "CENTER",
-			"textPosition": "RIGHT",
-			"text": "[MY ORDERS](/account#/orders) &nbsp; ",
-			"textColor": "c-on-action-primary",
-			"blockClass": "topBarLink",
-			"font": "t-mini"
-		}
-	},
-	"login#topbar": {
-		"props": {
-			"iconLabel": "login/sign up",
-			"optionsTitle": "Choose an option to sign in",
-			"emailAndPasswordTitle": "Sign in with email and password",
-			"emailPraceholder": "Ex. example@mail.com",
-			"passwordPlaceholder": "Add your password",
-			"accessCodeTitle": "Receive access code by email",
-			"Add yout access code": "Add your password",
-			"showPasswordVerificationIntoTooltip": true
-		}
-	},
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
+      "content": "Atendimento al mayorista 694-876-800"
     }
   },
   "sticky-layout#header-desktop": {
@@ -139,15 +55,17 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "search-bar",
       "locale-switcher",
+      "rich-text#mis-pedidos",
+      "flex-layout.col#modal-registro-link",
       "login",
       "minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "logo-desktop"
     },
     "children": ["logo#desktop"]
   },
@@ -156,8 +74,34 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/logounilever.png",
-      "width": "80"
+      "width": "60"
     }
+  },
+  "flex-layout.col#spacer": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#mis-pedidos": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "[Mis Pedidos](/account#/orders) &nbsp; ",
+			"textColor": "c-on-base",
+			"blockClass": "topBarLink",
+			"font": "t-action--small"
+		}
+  },
+  "flex-layout.col#modal-registro-link": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["modal-trigger#register"],
+    "title": "Modal Registro"
   },
   "flex-layout.row#4-desktop": {
     "props": {

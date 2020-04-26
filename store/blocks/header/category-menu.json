@@ -30,10 +30,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa",
+        "href": "/alimentos-y-bebidas",
         "noFollow": true,
-        "tagTitle": "VERDURA",
-        "text": "VERDURA"
+        "tagTitle": "Alimentos y bebidas",
+        "text": "ALIMENTOS Y BEBIDAS"
       },
       "blockClass":"header-department-title"
     },
@@ -76,11 +76,7 @@
       "menu-item#department-1-category-8",
       "menu-item#department-1-category-9",
       "menu-item#department-1-category-10",
-      "menu-item#department-1-category-11",
-      "menu-item#department-1-category-12",
-      "menu-item#department-1-category-13",
-      "menu-item#department-1-category-14",
-      "menu-item#department-1-category-15"
+      "menu-item#department-1-category-11"
     ]
   },
   "menu-item#department-1-category-1": {
@@ -91,10 +87,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa",
+        "href": "/alimentos-y-bebidas/alimentos",
         "noFollow": true,
-        "tagTitle": "VEURE TOTS",
-        "text": "VEURE TOTS"
+        "tagTitle": "Alimentos",
+        "text": "Alimentos"
       },
       "blockClass":"header-department-category-title"
     }
@@ -107,10 +103,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/alls-i-cebes",
+        "href": "/alimentos-y-bebidas/alimentos/condimento",
         "noFollow": true,
-        "tagTitle": "ALLS I CEBES",
-        "text": "ALLS I CEBES"
+        "tagTitle": "Condimento",
+        "text": "Condimento"
       }
     }
   },
@@ -122,10 +118,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/alvocat",
+        "href": "/alimentos-y-bebidas/alimentos/caldos",
         "noFollow": true,
-        "tagTitle": "ALVOCAT",
-        "text": "ALVOCAT"
+        "tagTitle": "Caldos",
+        "text": "Caldos"
       }
     }
   },
@@ -137,10 +133,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/bolets",
+        "href": "/alimentos-y-bebidas/alimentos/mayonesa",
         "noFollow": true,
-        "tagTitle": "BOLETS",
-        "text": "BOLETS"
+        "tagTitle": "Mayonesa",
+        "text": "Mayonesa"
       }
     }
   },
@@ -152,10 +148,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/carbassons-i-carbassa",
+        "href": "/alimentos-y-bebidas/alimentos/ketchup-y-mostaza",
         "noFollow": true,
-        "tagTitle": "CARBASSONS I CARBASSA",
-        "text": "CARBASSONS I CARBASSA"
+        "tagTitle": "Ketchup y Mostaza",
+        "text": "Ketchup y Mostaza"
       }
     }
   },
@@ -167,10 +163,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/cols-coliflor-i-broquil",
+        "href": "/alimentos-y-bebidas/alimentos/salsas",
         "noFollow": true,
-        "tagTitle": "COLS, COLIFLOR I BRÒQUIL",
-        "text": "COLS, COLIFLOR I BRÒQUIL"
+        "tagTitle": "Salsas",
+        "text": "Salsas"
       }
     }
   },
@@ -182,10 +178,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/enciams-bledes-i-espinacs",
+        "href": "/alimentos-y-bebidas/alimentos/jaleas",
         "noFollow": true,
-        "tagTitle": "ENCIAMS, BLEDES I ESPINACS",
-        "text": "ENCIAMS, BLEDES I ESPINACS"
+        "tagTitle": "Jaleas",
+        "text": "Jaleas"
       }
     }
   },
@@ -197,10 +193,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/herbes-aromatiques",
+        "href": "/alimentos-y-bebidas/alimentos/maizena",
         "noFollow": true,
-        "tagTitle": "HERBES AROMÀTIQUES",
-        "text": "HERBES AROMÀTIQUES"
+        "tagTitle": "Maizena",
+        "text": "Maizena"
       }
     }
   },
@@ -212,10 +208,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/pastanagues-naps-i-raves",
+        "href": "/alimentos-y-bebidas/alimentos/platos-rapidos",
         "noFollow": true,
-        "tagTitle": "PASTANAGUES, NAPS I RAVES",
-        "text": "PASTANAGUES, NAPS I RAVES"
+        "tagTitle": "Platos rápidos",
+        "text": "Platos rápidos"
       }
     }
   },
@@ -227,10 +223,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/patata-i-moniato",
+        "href": "/alimentos-y-bebidas/alimentos/conservas",
         "noFollow": true,
-        "tagTitle": "PATATA I MONIATO",
-        "text": "PATATA I MONIATO"
+        "tagTitle": "Conservas",
+        "text": "Conservas"
       }
     }
   },
@@ -242,70 +238,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/pebrots-alberginies-i-carxofes",
+        "href": "/alimentos-y-bebidas/bebidas/tes",
         "noFollow": true,
-        "tagTitle": "PEBROTS, ALBERGÍNIES I CARXOFES",
-        "text": "PEBROTS, ALBERGÍNIES I CARXOFES"
-      }
-    }
-  },
-  "menu-item#department-1-category-12": {
-    "props": {
-      "id": "menu-item-department-1-category-12",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/verdura-i-hortalissa/pesols-mongetes-i-esparrecs",
-        "noFollow": true,
-        "tagTitle": "PÈSOLS, MONGETES I ESPÀRRECS",
-        "text": "PÈSOLS, MONGETES I ESPÀRRECS"
-      }
-    }
-  },
-  "menu-item#department-1-category-13": {
-    "props": {
-      "id": "menu-item-department-1-category-13",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/verdura-i-hortalissa/porros-api-i-fonoll",
-        "noFollow": true,
-        "tagTitle": "PORROS, API I FONOLL",
-        "text": "PORROS, API I FONOLL"
-      }
-    }
-  },
-  "menu-item#department-1-category-14": {
-    "props": {
-      "id": "menu-item-department-1-category-14",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/verdura-i-hortalissa/tomaquets-i-cogombres",
-        "noFollow": true,
-        "tagTitle": "TOMÀQUETS I COGOMBRES",
-        "text": "TOMÀQUETS I COGOMBRES"
-      }
-    }
-  },
-  "menu-item#department-1-category-15": {
-    "props": {
-      "id": "menu-item-department-1-category-15",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/verdura-i-hortalissa/verdura-tallada",
-        "noFollow": true,
-        "tagTitle": "VERDURA TALLADA",
-        "text": "VERDURA TALLADA"
+        "tagTitle": "Tés",
+        "text": "Tés"
       }
     }
   },
@@ -332,10 +268,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "/alimentos-y-bebidas/bio-y-natural",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "Bio y Natural",
+      "text": "Bio y Natural"
     },
     "blockClass":"header-department-category-title"
   }
@@ -348,10 +284,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "/alimentos-y-bebidas/bio-y-natural/bio",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "Produtos Bio",
+      "text": "Produtos Bio"
     }
   }
 },
@@ -363,10 +299,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "/alimentos-y-bebidas/bio-y-natural/natural",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "Naturais",
+      "text": "Naturais"
     }
   }
 },
@@ -378,10 +314,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "",
+      "text": ""
     }
   }
 },
@@ -393,10 +329,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "",
+      "text": ""
     }
   }
 },
@@ -423,10 +359,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "/alimentos-y-bebidas/galletas-y-bocadillos",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "Galletas y bocadillos",
+      "text": "Galletas y bocadillos"
     },
     "blockClass":"header-department-category-title"
   }
@@ -439,10 +375,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "/alimentos-y-bebidas/galletas-y-bocadillos/galletas",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "Galletas",
+      "text": "Galletas"
     }
   }
 },
@@ -454,10 +390,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "/alimentos-y-bebidas/galletas-y-bocadillos/cookies",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "Cookies",
+      "text": "Cookies"
     }
   }
 },
@@ -469,10 +405,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "/alimentos-y-bebidas/galletas-y-bocadillos/barras-y-snacks",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "Barras y snacks",
+      "text": "Barras y snacks"
     }
   }
 },
@@ -484,10 +420,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/verdura-i-hortalissa",
+      "href": "",
       "noFollow": true,
-      "tagTitle": "VEURE TOTS",
-      "text": "VEURE TOTS"
+      "tagTitle": "",
+      "text": ""
     }
   }
 },
@@ -499,6 +435,9 @@
       "flex-layout.row#department-1-banner-2",
       "flex-layout.row#department-1-banner-3"
     ],
+    "props": {
+      "blockClass": "header-department-promo-col"
+    },
     "title": "Right Category Banners"
   },
   "flex-layout.row#department-1-banner-1": {
@@ -547,8 +486,8 @@
         "type": "internal",
         "href": "/fruita",
         "noFollow": true,
-        "tagTitle": "FRUITA",
-        "text": "FRUITA"
+        "tagTitle": "Ropa y Casa",
+        "text": "ROPA Y CASA"
       },
       "blockClass":"header-department-title"
     },
@@ -608,10 +547,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/fruita",
+        "href": "/cuidados-del-hogar",
         "noFollow": true,
-        "tagTitle": "VEURE TOTS",
-        "text": "VEURE TOTS"
+        "tagTitle": "Cuidado del hogar",
+        "text": "Cuidado del hogar"
       },
       "blockClass":"header-department-category-title"
     }
@@ -624,10 +563,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/verdura-i-hortalissa/alvocat",
+        "href": "/cuidados-del-hogar/limpieza",
         "noFollow": true,
-        "tagTitle": "ALVOCAT",
-        "text": "ALVOCAT"
+        "tagTitle": "Limpieza",
+        "text": "Limpieza"
       }
     }
   },
@@ -639,10 +578,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/fruita/cireres-i-prunes",
+        "href": "/cuidados-del-hogar/limpieza",
         "noFollow": true,
-        "tagTitle": "CIRERES I PRUNES",
-        "text": "CIRERES I PRUNES"
+        "tagTitle": "Baño",
+        "text": "Baño"
       }
     }
   },
@@ -654,10 +593,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/fruita/cistelles-de-fruita",
+        "href": "",
         "noFollow": true,
-        "tagTitle": "CISTELLES DE FRUITA",
-        "text": "CISTELLES DE FRUITA"
+        "tagTitle": "",
+        "text": ""
       }
     }
   },
@@ -878,10 +817,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/plats-cuinats",
+        "href": "/cuidados-personales",
         "noFollow": true,
-        "tagTitle": "PLATS CUINATS",
-        "text": "PLATS CUINATS"
+        "tagTitle": "Cuidados personales",
+        "text": "CUIDADO PERSONAL"
       },
       "blockClass":"header-department-title"
     },
@@ -1118,10 +1057,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lactics-i-ous",
+        "href": "/alimentos-y-bebidas/alimentos/helados",
         "noFollow": true,
-        "tagTitle": "LÀCTICS I OUS",
-        "text": "LÀCTICS I OUS"
+        "tagTitle": "Helados",
+        "text": "HELADOS"
       },
       "blockClass":"header-department-title"
     },
@@ -1321,10 +1260,23 @@
   },
   "flex-layout.col#department-4-submenu-col-2": {
     "children": [
-      "flex-layout.row#department-4-banner-1",
-      "flex-layout.row#department-4-banner-2"
+      "info-card#helados"
     ],
     "title": "Right Category Banners"
+  },
+  "info-card#helados": {
+    "props": {
+      "id": "info-card-helados",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/benjerrys.jpeg",
+      "headline": "Ben & Jerry's en promocions",
+      "callToActionText": "Navegar",
+      "callToActionUrl": "/helados",
+      "blockClass": "info-card-helados",
+      "textAlignment": "center"
+    },
+    "title": "Infocard Promotions"
   },
   "flex-layout.row#department-4-banner-1": {
     "children":["image#department-4-banner-1"],

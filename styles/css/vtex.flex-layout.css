@@ -22,7 +22,7 @@
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .flexRowContent--main-header-mobile {
@@ -95,5 +95,13 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+.flexCol--logo-desktop {
+  padding-right: 50px;
+}
+
+
+.flexCol--header-department-promo-col {
+  border-left: black 2px;
 }
 

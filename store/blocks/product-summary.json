@@ -1,0 +1,162 @@
+{
+    "product-summary.shelf": {
+        "children": [
+          "stack-layout#prodsum",
+          "product-summary-name",
+          "product-summary-brand",
+          "flex-layout.row#product-summary-specification-badges-info",
+          "product-list-price#summary",
+          "flex-layout.row#selling-price-savings",
+          "product-summary-quantity",
+          "product-summary-sku-selector#shelf",
+          "add-to-cart-button"
+        ]
+      },
+      "flex-layout.row#product-summary-specification-badges-info":{
+        "children": [
+            "flex-layout.col#product-summary-specification-badges-info-1",
+            "flex-layout.col#product-summary-specification-badges-info-2",
+            "flex-layout.col#product-summary-specification-badges-info-3"
+        ],
+        "props": {
+            "colSizing": "equal"
+        }
+
+    },
+      "flex-layout.col#product-summary-specification-badges-info-3":{
+        "children": [
+          
+        ]
+
+    },
+      "flex-layout.col#product-summary-specification-badges-info-1":{
+        "children": [
+          "product-summary-specification-badges#embalaje"
+        ]
+
+    },
+
+      "product-summary-specification-badges#embalaje": {
+        "props": {
+          "specificationGroupName": "allSpecifications",
+          "specificationsOptions": [
+            {
+                "displayValue":"SPECIFICATION_VALUE",
+                "specificationName": "Embalaje",
+                "visibleWhen": "Botella"
+
+            },
+            {
+                "displayValue":"SPECIFICATION_VALUE",
+                "specificationName": "Embalaje",
+                "visibleWhen": "Paquete"
+
+            }
+          ]
+        }
+      },
+      "flex-layout.col#product-summary-specification-badges-info-2":{
+        "children": [
+          "product-summary-specification-badges#tamano"
+        ]
+
+    },
+    
+      "product-summary-specification-badges#tamano": {
+        "props": {
+          "specificationGroupName": "allSpecifications",
+          "specificationsOptions": [
+            {
+                "displayValue":"SPECIFICATION_VALUE",
+                "specificationName": "Tamaño",
+                "visibleWhen": "500 ml"
+
+            },
+            {
+                "displayValue":"SPECIFICATION_VALUE",
+                "specificationName": "Tamaño",
+                "visibleWhen": "750 ml"
+
+            }
+          ]
+        }
+      },
+
+      "stack-layout#prodsum": {
+        "children": [
+            "product-summary-image#shelf",
+            "flex-layout.row#product-summary-specification-badges-shelf"
+        ]
+      },
+      "flex-layout.row#product-summary-specification-badges-shelf":{
+        "children": [
+            "flex-layout.col#product-summary-specification-badges-shelf"
+        ]
+
+    },
+      "flex-layout.col#product-summary-specification-badges-shelf":{
+          "children": [
+            "product-summary-specification-badges#lider",
+            "product-summary-specification-badges#indicado"
+          ]
+
+      },
+      "product-summary-image#shelf": {
+        "props": {
+          "showBadge": true,
+          "aspectRatio": "1:1",
+          "height": 180
+        }
+      },
+      "product-summary-specification-badges#lider": {
+        "props": {
+          "specificationGroupName": "allSpecifications",
+          "specificationName": "Lider",
+          "visibleWhen": "Si",
+          "displayValue": "SPECIFICATION_VALUE"
+        }
+      },
+      "product-summary-specification-badges#indicado": {
+        "props": {
+          "specificationGroupName": "allSpecifications",
+          "specificationName": "Indicado",
+          "visibleWhen": "Si",
+          "displayValue": "SPECIFICATION_VALUE"
+        }
+      },
+
+
+      "product-summary-sku-selector#shelf":{
+        "props":{
+          "variationsSpacing": 3,
+          "thumbnailImage": "caja",
+          "showValueForVariation": "image"
+        }
+      },
+
+
+
+      "challenge-block#description": {
+        "blocks": [
+          "challenge-content#description",
+          "challenge-fallback#description"
+        ]
+      },
+       "challenge-content#description": {
+         "children": [
+           "product-list-price#summary"
+         ]
+       },
+       "challenge-fallback#description": {
+         "children": [
+           "rich-text#challenge-description"
+         ]
+       },
+       "rich-text#challenge-description": {
+         "props": {
+           "text": "Please login to see the price",
+           "blockClass": "challengeDescription"
+         }
+       }
+    
+}

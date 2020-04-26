@@ -40,16 +40,39 @@
     "children": [
       "flex-layout.row#product-image",
       "product-bookmark",
-      "product-specification-badges"
+      "flex-layout.row#product-summary-specification-badges-product"
     ]
   },
+  "flex-layout.row#product-summary-specification-badges-product":{
+    "children": [
+        "flex-layout.col#product-summary-specification-badges-product"
+    ]
 
-  "product-specification-badges": {
+},
+  "flex-layout.col#product-summary-specification-badges-product":{
+      "children": [
+        "product-specification-badges#lider",
+        "product-specification-badges#indicado"
+      ],
+      "props": { 
+        "horizontalAlign": "right"
+      }
+
+  },
+  "product-specification-badges#lider": {
     "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
+      "specificationGroupName": "allSpecifications",
+      "specificationName": "Lider",
+      "visibleWhen": "Si",
       "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "product-specification-badges#indicado": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "specificationName": "Indicado",
+      "visibleWhen": "Si",
+      "displayValue": "SPECIFICATION_VALUE"
     }
   },
 
@@ -82,16 +105,14 @@
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
-      "product-installments",
       "product-separator",
       "product-identifier.product",
-      "sku-selector",
+      "sku-selector#product",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator",
       "share#default"
     ]
   },
@@ -105,10 +126,11 @@
     ]
   },
 
-  "sku-selector": {
+  "sku-selector#product": {
     "props": {
       "variationsSpacing": 3,
-      "showValueNameForImageVariation": true
+      "thumbnailImage": "caja",
+      "showValueForVariation": "image"
     }
   },
 

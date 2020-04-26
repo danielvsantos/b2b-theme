@@ -40,3 +40,27 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.badgeContainer--lider {
+  background-image: url(https://i-unilever.a8e.net.br/static/images/stopper-promo-lider-novo1.png);
+  height: 45px;
+  width: 65px;
+}
+.badgeContainer--lider .badgeText {
+  z-index: -1;
+}
+
+.badgeContainer--indicado {
+  background-image: url(https://i-unilever.a8e.net.br/static/images/stopper-promo-indicado-novo.png);
+  height: 45px;
+  width: 65px;
+}
+.badgeContainer--indicado .badgeText {
+  z-index: -1;
+}
+
+
+.productBrandName { 
+  font-size: 18px;
+  font-weight: bold;
+}

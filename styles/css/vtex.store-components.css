@@ -1,21 +1,17 @@
 .notificationBarContainer {
-  background-color: blue;
+  background-color: #2C81C0;
   color: white;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
+  height: 45px;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  max-width: 208px;
+  
 }
 
-.infoCardContainer--info-card-home {
-  max-width: 1520px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
-  padding: 0px;
-}
+
 
 .newsletter {
   background-color: #03054e;
@@ -66,7 +62,7 @@
 }
 
 .skuSelectorContainer {
-  margin: 1rem 0;
+ 
 }
 
 @media only screen and (min-width: 640px) {
@@ -78,18 +74,15 @@
     font-size: 40px;
   }
 
-  .infoCardContainer--info-card-home .infoCardTextContainer {
-    width: 30%;
-  }
-
-  .infoCardContainer--info-card-home .infoCardImageContainer {
-    width: 70%;
-  }
 
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
   }
+}
+.imageElement--carousel {
+  max-width: 1250px;
+  border-radius: 25px;
 }
 
 .productImagesContainer--quickview .carouselContainer {

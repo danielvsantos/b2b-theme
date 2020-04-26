@@ -1,0 +1,67 @@
+{
+    "flex-layout.row#home-brands":{ 
+        "children": [
+            "list-context.image-list#brands"
+        ],
+        "props": {
+          "blockClass": "home-brands-row",
+          "marginTop": 3
+        } 
+      },
+      "list-context.image-list#brands": {
+        "children": ["slider-layout#brand-images"],
+        "props": {
+            "height": 65,
+          "images": [
+            {
+              "image": "assets/logoaxe2.png",
+              "mobileImage": "assets/logoaxe2.png"
+            },
+            {
+              "image": "assets/logocif.png",
+              "mobileImage": "assets/logocif.png"
+            },
+            {
+              "image": "assets/logoclear.png",
+              "mobileImage": "assets/logoclear.png"
+            },
+            {
+              "image": "assets/logodove.png",
+              "mobileImage": "assets/logodove.png"
+            },
+            {
+              "image": "assets/logohellmans2.png",
+              "mobileImage": "assets/logohellmans2.png"
+            },
+            {
+              "image": "assets/logoknorr.png",
+              "mobileImage": "assets/logoknorr.png"
+            },
+            {
+              "image": "assets/logolipton.png",
+              "mobileImage": "assets/logolipton.png"
+            },
+            {
+              "image": "assets/logoaxe2.png",
+              "mobileImage": "assets/logoaxe2.png"
+            },
+            {
+              "image": "assets/logoaxe2.png",
+              "mobileImage": "assets/logoaxe2.png"
+            }
+          ]
+        }
+      },
+      "slider-layout#brand-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 8,
+            "tablet": 6,
+            "phone": 3
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "brands"
+        }
+      }
+}

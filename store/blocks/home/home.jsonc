@@ -5,14 +5,23 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "tab-layout#home",
+      "flex-layout.row#home-brands",
+      "flex-layout.row#home-tabs",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
       "rich-text#question",
       "rich-text#link",
       "newsletter"
     ]
+  },
+  "flex-layout.row#home-tabs":{ 
+    "children": [
+      "tab-layout#home"
+    ],
+    "props": {
+      "blockClass": "home-tabs-row",
+      "marginTop": 7
+    } 
   },
   "tab-layout#home":{
     "children":[
@@ -30,7 +39,7 @@
 "tab-list.item#home1":{
     "props": {
         "tabId": "home",
-        "label": "Mens",
+        "label": "Cuidado del Hogar",
         "defaultActiveTab":true
     }
 
@@ -38,14 +47,14 @@
 "tab-list.item#home2":{
     "props": {
         "tabId": "home2",
-        "label": "Womens"
+        "label": "Limpieza"
     }
 
 },
 "tab-list.item#home3":{
     "props": {
         "tabId": "home3",
-        "label": "Youth"
+        "label": "Baño"
     }
 
 },
@@ -59,7 +68,7 @@
 },
 "tab-content.item#home":{
     "children": [
-        "shelf#home"
+      "flex-layout.row#home-tab-shelf-1"
     ],
     "props": {
         "tabId":"home"
@@ -67,7 +76,7 @@
 },
 "tab-content.item#home2":{
     "children": [
-        "shelf#home"
+      "flex-layout.row#home-tab-shelf-1"
     ],
     "props": {
         "tabId":"home2"
@@ -75,21 +84,52 @@
 },
 "tab-content.item#home3":{
     "children": [
-        "shelf#home"
+      "flex-layout.row#home-tab-shelf-1"
     ],
     "props": {
         "tabId":"home3"
     }
 },
+"flex-layout.row#home-tab-shelf-1":{
+  "children": [
+    "list-context.product-list#home-tab-shelf-1"
+  ],
+  "props": {
+    "marginTop": 6
+  }
+},
+"list-context.product-list#home-tab-shelf-1": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#home-shelf"],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC",
+    "category": "1"
+  }
+},
 
   "shelf#home": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf"],
+    "props":{
+      "category": "1"
+    }
+  },
+  "shelf#home-tab-2": {
+    "blocks": ["product-summary.shelf"],
+    "props":{
+      "category": "1/2"
+    }
+  },
+  "shelf#home-tab-3": {
+    "blocks": ["product-summary.shelf"],
+    "props":{
+      "category": "1/3"
+    }
   },
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
+      "height": 720, 
       "images": [
         {
           "image": "assets/bannerunilever.jpg",
@@ -117,7 +157,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Produtos contra germes e bactérias",
       "blockClass": "shelfTitle",
       "tag": "h1"
     }
@@ -127,12 +167,12 @@
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout#home-shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#home-shelf": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -144,21 +184,6 @@
       "blockClass": "shelf"
     }
   },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",

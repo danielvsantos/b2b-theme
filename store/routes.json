@@ -4,5 +4,8 @@
   },
   "store.custom#registration": {
     "path": "/registration"
+  },
+  "store.custom#checkout": {
+    "path": "/cart"
   }
 }

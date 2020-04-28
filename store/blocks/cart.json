@@ -1,0 +1,7 @@
+{
+    "store.custom#checkout":{
+        "children":[
+            "checkout-cart"
+        ]
+    }
+}

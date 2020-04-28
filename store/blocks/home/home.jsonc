@@ -106,23 +106,27 @@
     "category": "1"
   }
 },
+"list-context.product-list#home-tab-shelf-2": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#home-shelf"],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC",
+    "category": "1/2"
+  }
+},
+"list-context.product-list#home-tab-shelf-3": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#home-shelf"],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC",
+    "category": "1/3"
+  }
+},
 
   "shelf#home": {
     "blocks": ["product-summary.shelf"],
     "props":{
       "category": "1"
-    }
-  },
-  "shelf#home-tab-2": {
-    "blocks": ["product-summary.shelf"],
-    "props":{
-      "category": "1/2"
-    }
-  },
-  "shelf#home-tab-3": {
-    "blocks": ["product-summary.shelf"],
-    "props":{
-      "category": "1/3"
     }
   },
 
@@ -136,7 +140,7 @@
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "image": "assets/bannerunilever.jpg",
+          "image": "assets/bannerunilever2.jpg",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]

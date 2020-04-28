@@ -50,8 +50,12 @@
                 "displayValue":"SPECIFICATION_VALUE",
                 "specificationName": "Embalaje",
                 "visibleWhen": "Paquete"
-
-            }
+            },
+            {
+              "displayValue":"SPECIFICATION_VALUE",
+              "specificationName": "Embalaje",
+              "visibleWhen": "Lata"
+          }
           ]
         }
       },
@@ -76,7 +80,21 @@
                 "displayValue":"SPECIFICATION_VALUE",
                 "specificationName": "Tamaño",
                 "visibleWhen": "750 ml"
-
+            },
+            {
+                "displayValue":"SPECIFICATION_VALUE",
+                "specificationName": "Tamaño",
+                "visibleWhen": "150 ml"
+            },
+            {
+                "displayValue":"SPECIFICATION_VALUE",
+                "specificationName": "Tamaño",
+                "visibleWhen": "700 ml"
+            },
+            {
+                "displayValue":"SPECIFICATION_VALUE",
+                "specificationName": "Tamaño",
+                "visibleWhen": "650 ml"
             }
           ]
         }

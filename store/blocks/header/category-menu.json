@@ -17,8 +17,8 @@
       "menu-item#department-2",
       "menu-item#department-3",
       "menu-item#department-4",
-      "menu-item#department-5",
-      "menu-item#department-6"
+      "menu-item#department-6",
+      "menu-item#department-7"
     ],
     "title": "Category Mega Menu"
   },
@@ -30,10 +30,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas",
+        "href": "/alimentos",
         "noFollow": true,
-        "tagTitle": "Alimentos y bebidas",
-        "text": "ALIMENTOS Y BEBIDAS"
+        "tagTitle": "Alimentos",
+        "text": "ALIMENTOS"
       },
       "blockClass":"header-department-title"
     },
@@ -54,8 +54,7 @@
     "children": [
       "menu#department-1-submenu-col-1",
       "menu#department-1-submenu-col-2",
-      "menu#department-1-submenu-col-3",
-      "flex-layout.col#department-1-submenu-col-4"
+      "flex-layout.col#department-4-submenu-col-2"
     ]
   },
   "menu#department-1-submenu-col-1": {
@@ -87,10 +86,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos",
+        "href": "/alimentos/comida",
         "noFollow": true,
-        "tagTitle": "Alimentos",
-        "text": "Alimentos"
+        "tagTitle": "Comida",
+        "text": "Comida"
       },
       "blockClass":"header-department-category-title"
     }
@@ -103,10 +102,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/condimento",
+        "href": "/alimentos/comida/cremas",
         "noFollow": true,
-        "tagTitle": "Condimento",
-        "text": "Condimento"
+        "tagTitle": "Cremas",
+        "text": "Cremas"
       }
     }
   },
@@ -118,10 +117,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/caldos",
+        "href": "/alimentos/comida/sopas",
         "noFollow": true,
-        "tagTitle": "Caldos",
-        "text": "Caldos"
+        "tagTitle": "Sopas",
+        "text": "Sopas"
       }
     }
   },
@@ -133,10 +132,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/mayonesa",
+        "href": "/alimentos/comida/pure",
         "noFollow": true,
-        "tagTitle": "Mayonesa",
-        "text": "Mayonesa"
+        "tagTitle": "Pure",
+        "text": "Pure"
       }
     }
   },
@@ -148,10 +147,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/ketchup-y-mostaza",
+        "href": "/alimentos/comida/salsas",
         "noFollow": true,
-        "tagTitle": "Ketchup y Mostaza",
-        "text": "Ketchup y Mostaza"
+        "tagTitle": "Salsas",
+        "text": "Salsas"
       }
     }
   },
@@ -163,10 +162,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/salsas",
+        "href": "/alimentos/comida/pastas",
         "noFollow": true,
-        "tagTitle": "Salsas",
-        "text": "Salsas"
+        "tagTitle": "Pastas",
+        "text": "Pastas"
       }
     }
   },
@@ -178,10 +177,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/jaleas",
+        "href": "/alimentos/comida/espesante-instantaneo",
         "noFollow": true,
-        "tagTitle": "Jaleas",
-        "text": "Jaleas"
+        "tagTitle": "Espesante Instantáneo",
+        "text": "Espesante Instantáneo"
       }
     }
   },
@@ -193,10 +192,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/maizena",
+        "href": "/alimentos/comida/mayonesa",
         "noFollow": true,
-        "tagTitle": "Maizena",
-        "text": "Maizena"
+        "tagTitle": "Mayonesa",
+        "text": "Mayonesa"
       }
     }
   },
@@ -208,10 +207,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/platos-rapidos",
+        "href": "/alimentos/comida/ketchup",
         "noFollow": true,
-        "tagTitle": "Platos rápidos",
-        "text": "Platos rápidos"
+        "tagTitle": "Ketchup",
+        "text": "Ketchup"
       }
     }
   },
@@ -223,10 +222,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/conservas",
+        "href": "/alimentos/comida/caldos",
         "noFollow": true,
-        "tagTitle": "Conservas",
-        "text": "Conservas"
+        "tagTitle": "Caldos",
+        "text": "Caldos"
       }
     }
   },
@@ -238,10 +237,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/bebidas/tes",
+        "href": "/alimentos/comida/platos-preparados",
         "noFollow": true,
-        "tagTitle": "Tés",
-        "text": "Tés"
+        "tagTitle": "Platos Preparados",
+        "text": "Platos Preparados"
       }
     }
   },
@@ -268,10 +267,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/alimentos-y-bebidas/bio-y-natural",
+      "href": "/alimentos/helados",
       "noFollow": true,
-      "tagTitle": "Bio y Natural",
-      "text": "Bio y Natural"
+      "tagTitle": "Helados",
+      "text": "Helados"
     },
     "blockClass":"header-department-category-title"
   }
@@ -284,10 +283,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/alimentos-y-bebidas/bio-y-natural/bio",
+      "href": "/alimentos/helados/tarrina",
       "noFollow": true,
-      "tagTitle": "Produtos Bio",
-      "text": "Produtos Bio"
+      "tagTitle": "Tarrina",
+      "text": "Tarrina"
     }
   }
 },
@@ -299,10 +298,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/alimentos-y-bebidas/bio-y-natural/natural",
+      "href": "/alimentos/helados/infantiles",
       "noFollow": true,
-      "tagTitle": "Naturais",
-      "text": "Naturais"
+      "tagTitle": "Infantiles",
+      "text": "Infantiles"
     }
   }
 },
@@ -314,10 +313,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "",
+      "href": "/alimentos/helados/mini-helados",
       "noFollow": true,
-      "tagTitle": "",
-      "text": ""
+      "tagTitle": "Mini Helados",
+      "text": "Mini Helados"
     }
   }
 },
@@ -329,107 +328,14 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "",
+      "href": "/alimentos/helados/tarta",
       "noFollow": true,
-      "tagTitle": "",
-      "text": ""
+      "tagTitle": "Tarta",
+      "text": "Tarta"
     }
   }
 },
-  "menu#department-1-submenu-col-3": {
-    "props": {
-        "orientation": "vertical",
-        "experimentalOptimizeRendering": true,
-        "tagTitle": "Submenu",
-        "blockClass": "header-department-submenu-col"
-    },
-    "children": [
-      "menu-item#department-1-category-1-col-3",
-      "menu-item#department-1-category-2-col-3",
-      "menu-item#department-1-category-3-col-3",
-      "menu-item#department-1-category-4-col-3",
-      "menu-item#department-1-category-5-col-3"
-    ]
-},
-"menu-item#department-1-category-1-col-3": {
-  "props": {
-    "id": "menu-item-department-1-category-1-col-3",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/alimentos-y-bebidas/galletas-y-bocadillos",
-      "noFollow": true,
-      "tagTitle": "Galletas y bocadillos",
-      "text": "Galletas y bocadillos"
-    },
-    "blockClass":"header-department-category-title"
-  }
-},
-"menu-item#department-1-category-2-col-3": {
-  "props": {
-    "id": "menu-item-department-1-category-2-col-3",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/alimentos-y-bebidas/galletas-y-bocadillos/galletas",
-      "noFollow": true,
-      "tagTitle": "Galletas",
-      "text": "Galletas"
-    }
-  }
-},
-"menu-item#department-1-category-3-col-3": {
-  "props": {
-    "id": "menu-item-department-1-category-3-col-3",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/alimentos-y-bebidas/galletas-y-bocadillos/cookies",
-      "noFollow": true,
-      "tagTitle": "Cookies",
-      "text": "Cookies"
-    }
-  }
-},
-"menu-item#department-1-category-4-col-3": {
-  "props": {
-    "id": "menu-item-department-1-category-4-col-3",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/alimentos-y-bebidas/galletas-y-bocadillos/barras-y-snacks",
-      "noFollow": true,
-      "tagTitle": "Barras y snacks",
-      "text": "Barras y snacks"
-    }
-  }
-},
-"menu-item#department-1-category-5-col-3": {
-  "props": {
-    "id": "menu-item-department-1-category-5-col-3",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "",
-      "noFollow": true,
-      "tagTitle": "",
-      "text": ""
-    }
-  }
-},
-
-  
-  "flex-layout.col#department-1-submenu-col-4": {
+  "flex-layout.col#department-1-submenu-col-3": {
     "children": [
       "flex-layout.row#department-1-banner-1",
       "flex-layout.row#department-1-banner-2",
@@ -476,6 +382,10 @@
     },
     "title": "Top Banner"
   },
+
+
+
+  
   "menu-item#department-2": {
     "props": {
       "id": "menu-item-department-2",
@@ -484,10 +394,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/fruita",
+        "href": "/cuidado-del-hogar",
         "noFollow": true,
-        "tagTitle": "Ropa y Casa",
-        "text": "ROPA Y CASA"
+        "tagTitle": "Hogar y Ropa",
+        "text": "HOGAR Y ROPA"
       },
       "blockClass":"header-department-title"
     },
@@ -507,15 +417,26 @@
   "flex-layout.row#department-2-submenu": {
     "children": [
       "flex-layout.col#department-2-submenu-col-1",
-      "flex-layout.col#department-2-submenu-col-2"
-    ]
+      "flex-layout.col#department-2-submenu-col-2",
+      "flex-layout.col#department-4-submenu-col-2"
+    ],
+    "props":{
+      "colGap": 6
+    }
   },
   "flex-layout.col#department-2-submenu-col-1": {
     "children": [
       "vtex.menu@2.x:menu#department-2-submenu"
-    ],
-    "title": "Left Category Links"
+    ]
   },
+  "flex-layout.col#department-2-submenu-col-2": {
+    "children": [
+      "menu#department-2-submenu-col-2"
+    ]
+  },
+
+
+
   "vtex.menu@2.x:menu#department-2-submenu": {
     "props": {
       "orientation": "vertical",
@@ -528,15 +449,7 @@
       "menu-item#department-2-category-4",
       "menu-item#department-2-category-5",
       "menu-item#department-2-category-6",
-      "menu-item#department-2-category-7",
-      "menu-item#department-2-category-8",
-      "menu-item#department-2-category-9",
-      "menu-item#department-2-category-10",
-      "menu-item#department-2-category-11",
-      "menu-item#department-2-category-12",
-      "menu-item#department-2-category-13",
-      "menu-item#department-2-category-14",
-      "menu-item#department-2-category-15"
+      "menu-item#department-2-category-7"
     ]
   },
   "menu-item#department-2-category-1": {
@@ -547,10 +460,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cuidados-del-hogar",
+        "href": "/cuidados-del-hogar/ropa",
         "noFollow": true,
-        "tagTitle": "Cuidado del hogar",
-        "text": "Cuidado del hogar"
+        "tagTitle": "Ropa",
+        "text": "Ropa"
       },
       "blockClass":"header-department-category-title"
     }
@@ -563,10 +476,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cuidados-del-hogar/limpieza",
+        "href": "/cuidados-del-hogar/ropa/detergente-para-ropa",
         "noFollow": true,
-        "tagTitle": "Limpieza",
-        "text": "Limpieza"
+        "tagTitle": "Detergente para Ropa",
+        "text": "Detergente para Ropa"
       }
     }
   },
@@ -578,16 +491,61 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cuidados-del-hogar/limpieza",
+        "href": "/cuidados-del-hogar/ropa/suavizante",
         "noFollow": true,
-        "tagTitle": "Baño",
-        "text": "Baño"
+        "tagTitle": "Suavizante",
+        "text": "Suavizante"
       }
     }
   },
   "menu-item#department-2-category-4": {
     "props": {
       "id": "menu-item-department-2-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidados-del-hogar/ropa/planchado",
+        "noFollow": true,
+        "tagTitle": "Planchado",
+        "text": "Planchado"
+      }
+    }
+  },
+  "menu-item#department-2-category-5": {
+    "props": {
+      "id": "menu-item-department-2-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidados-del-hogar/ropa/quitamanchas",
+        "noFollow": true,
+        "tagTitle": "Quitamanchas",
+        "text": "Quitamanchas"
+      }
+    }
+  },
+  "menu-item#department-2-category-6": {
+    "props": {
+      "id": "menu-item-department-2-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidados-del-hogar/ropa/toallitas-perfumadoras",
+        "noFollow": true,
+        "tagTitle": "Toallitas Perfumadoras",
+        "text": "Toallitas Perfumadoras"
+      }
+    }
+  },
+  "menu-item#department-2-category-7": {
+    "props": {
+      "id": "menu-item-department-2-category-7",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -600,172 +558,114 @@
       }
     }
   },
-  "menu-item#department-2-category-5": {
+  "menu#department-2-submenu-col-2": {
     "props": {
-      "id": "menu-item-department-2-category-5",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/fruita-dolca",
-        "noFollow": true,
-        "tagTitle": "FRUITA DOLÇA",
-        "text": "FRUITA DOLÇA"
-      }
+        "orientation": "vertical",
+        "experimentalOptimizeRendering": true,
+        "tagTitle": "Submenu",
+        "blockClass": "header-department-submenu-col"
+    },
+    "children": [
+      "menu-item#department-2-category-1-col-2",
+      "menu-item#department-2-category-2-col-2",
+      "menu-item#department-2-category-3-col-2",
+      "menu-item#department-2-category-4-col-2",
+      "menu-item#department-2-category-5-col-2",
+      "menu-item#department-2-category-6-col-2"
+    ]
+},
+"menu-item#department-2-category-1-col-2": {
+  "props": {
+    "id": "menu-item-department-2-category-1-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidados-del-hogar/hogar",
+      "noFollow": true,
+      "tagTitle": "Hogar",
+      "text": "Hogar"
+    },
+    "blockClass":"header-department-category-title"
+  }
+},
+"menu-item#department-2-category-2-col-2": {
+  "props": {
+    "id": "menu-item-department-2-category-2-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidados-del-hogar/hogar/bano",
+      "noFollow": true,
+      "tagTitle": "Baño",
+      "text": "Baño"
     }
-  },
-  "menu-item#department-2-category-6": {
-    "props": {
-      "id": "menu-item-department-2-category-6",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/fruita-seca-i-llavors",
-        "noFollow": true,
-        "tagTitle": "FRUITA SECA I LLAVORS",
-        "text": "FRUITA SECA I LLAVORS"
-      }
+  }
+},
+"menu-item#department-2-category-3-col-2": {
+  "props": {
+    "id": "menu-item-department-2-category-3-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidados-del-hogar/hogar/quitagrasas",
+      "noFollow": true,
+      "tagTitle": "Quitagrasas",
+      "text": "Quitagrasas"
     }
-  },
-  "menu-item#department-2-category-7": {
-    "props": {
-      "id": "menu-item-department-2-category-7",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/fruita-tropical-i-exotica",
-        "noFollow": true,
-        "tagTitle": "FRUITA TROPICAL I EXÒTICA",
-        "text": "FRUITA TROPICAL I EXÒTICA"
-      }
+  }
+},
+"menu-item#department-2-category-4-col-2": {
+  "props": {
+    "id": "menu-item-department-2-category-4-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidados-del-hogar/hogar/lejias",
+      "noFollow": true,
+      "tagTitle": "Lejías",
+      "text": "Lejías"
     }
-  },
-  "menu-item#department-2-category-8": {
-    "props": {
-      "id": "menu-item-department-2-category-8",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/melons-i-sindries",
-        "noFollow": true,
-        "tagTitle": "MELONS I SÍNDRIES",
-        "text": "MELONS I SÍNDRIES"
-      }
+  }
+},
+"menu-item#department-2-category-5-col-2": {
+  "props": {
+    "id": "menu-item-department-2-category-5-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidados-del-hogar/hogar/lavajillas",
+      "noFollow": true,
+      "tagTitle": "Lavavajillas",
+      "text": "Lavavajillas"
     }
-  },
-  "menu-item#department-2-category-9": {
-    "props": {
-      "id": "menu-item-department-2-category-9",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/pinya-i-mango",
-        "noFollow": true,
-        "tagTitle": "PINYA I MANGO",
-        "text": "PINYA I MANGO"
-      }
+  }
+},
+"menu-item#department-2-category-6-col-2": {
+  "props": {
+    "id": "menu-item-department-2-category-6-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidados-del-hogar/hogar/limpiacristales-y-multiusos",
+      "noFollow": true,
+      "tagTitle": "Limpiacristales y Multiusos",
+      "text": "Limpiacristales y Multiusos"
     }
-  },
-  "menu-item#department-2-category-10": {
-    "props": {
-      "id": "menu-item-department-2-category-10",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/platans-i-kiwis",
-        "noFollow": true,
-        "tagTitle": "PLÀTANS I KIWIS",
-        "text": "PLÀTANS I KIWIS"
-      }
-    }
-  },
-  "menu-item#department-2-category-11": {
-    "props": {
-      "id": "menu-item-deparment-2-category-11",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/pomes-i-peres",
-        "noFollow": true,
-        "tagTitle": "POMES I PERES",
-        "text": "POMES I PERES"
-      }
-    }
-  },
-  "menu-item#department-2-category-12": {
-    "props": {
-      "id": "menu-item-deparment-2-category-12",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/pressecs-i-albercocs",
-        "noFollow": true,
-        "tagTitle": "PRÉSSECS I ALBERCOCS",
-        "text": "PRÉSSECS I ALBERCOCS"
-      }
-    }
-  },
-  "menu-item#department-2-category-13": {
-    "props": {
-      "id": "menu-item-deparment-2-category-13",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/raims-i-fruits-vermells",
-        "noFollow": true,
-        "tagTitle": "RAÏMS I FRUITS VERMELLS",
-        "text": "RAÏMS I FRUITS VERMELLS"
-      }
-    }
-  },
-  "menu-item#department-2-category-14": {
-    "props": {
-      "id": "menu-item-deparment-2-category-14",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/taronges-i-citrics",
-        "noFollow": true,
-        "tagTitle": "TARONGES I CÍTRICS",
-        "text": "TARONGES I CÍTRICS"
-      }
-    }
-  },
-  "menu-item#department-2-category-15": {
-    "props": {
-      "id": "menu-item-deparment-2-category-15",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fruita/tomaquets",
-        "noFollow": true,
-        "tagTitle": "TOMÀQUETS",
-        "text": "TOMÀQUETS"
-      }
-    }
-  },
-  "flex-layout.col#department-2-submenu-col-2": {
+  }
+},
+  "flex-layout.col#department-2-submenu-col-3": {
     "children": [
       "flex-layout.row#department-2-banner-1",
       "flex-layout.row#department-2-banner-2",
@@ -817,9 +717,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cuidados-personales",
+        "href": "/cuidado-personal",
         "noFollow": true,
-        "tagTitle": "Cuidados personales",
+        "tagTitle": "Cuidado personal",
         "text": "CUIDADO PERSONAL"
       },
       "blockClass":"header-department-title"
@@ -840,15 +740,32 @@
   "flex-layout.row#department-3-submenu": {
     "children": [
       "flex-layout.col#department-3-submenu-col-1",
-      "flex-layout.col#department-3-submenu-col-2"
+      "flex-layout.col#department-3-submenu-col-2",
+      "flex-layout.col#department-3-submenu-col-3",
+      "flex-layout.col#department-4-submenu-col-2"
     ]
   },
-  "flex-layout.col#department-3-submenu-col-1": {
+  "flex-layout.col#department-3-submenu-col-1":{
     "children": [
       "vtex.menu@2.x:menu#department-3-submenu"
     ],
     "title": "Left Category Links"
   },
+  "flex-layout.col#department-3-submenu-col-2":{
+    "children": [
+      "menu#department-3-submenu-col-2"
+    ],
+    "title": "Left Category Links"
+  },
+  "flex-layout.col#department-3-submenu-col-3":{
+    "children": [
+      "menu#department-3-submenu-col-3"
+    ],
+    "title": "Left Category Links"
+  },
+
+
+
   "vtex.menu@2.x:menu#department-3-submenu": {
     "props": {
       "orientation": "vertical",
@@ -860,11 +777,7 @@
       "menu-item#department-3-category-3",
       "menu-item#department-3-category-4",
       "menu-item#department-3-category-5",
-      "menu-item#department-3-category-6",
-      "menu-item#department-3-category-7",
-      "menu-item#department-3-category-8",
-      "menu-item#department-3-category-9",
-      "menu-item#department-3-category-10"
+      "menu-item#department-3-category-6"
     ]
   },
   "menu-item#department-3-category-1": {
@@ -875,10 +788,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/plats-cuinats",
+        "href": "/cuidado-personal/higiene-corporal",
         "noFollow": true,
-        "tagTitle": "VEURE TOTS",
-        "text": "VEURE TOTS"
+        "tagTitle": "Higiene Corporal",
+        "text": "Higiene Corporal"
       },
       "blockClass":"header-department-category-title"
     }
@@ -891,10 +804,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/plats-cuinats/canelons-i-lasanya",
+        "href": "/cuidado-personal/higiene-corporal/geles-de-bano",
         "noFollow": true,
-        "tagTitle": "CANELONS I LASANYA",
-        "text": "CANELONS I LASANYA"
+        "tagTitle": "Geles de Baño",
+        "text": "Geles de Baño"
       }
     }
   },
@@ -906,10 +819,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/plats-cuinats/cremes-i-sopes",
+        "href": "/cuidado-personal/higiene-corporal/desodorantes",
         "noFollow": true,
-        "tagTitle": "CREMES I SOPES",
-        "text": "CREMES I SOPES"
+        "tagTitle": "Desodorantes",
+        "text": "Desodorantes"
       }
     }
   },
@@ -921,10 +834,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/plats-cuinats/pizza",
+        "href": "/cuidado-personal/higiene-corporal/jabon-de-manos",
         "noFollow": true,
-        "tagTitle": "PIZZA",
-        "text": "PIZZA"
+        "tagTitle": "Jabón de Manos",
+        "text": "Jabón de Manos"
       }
     }
   },
@@ -936,10 +849,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/plats-cuinats/plats-a-escalfar",
+        "href": "/cuidado-personal/higiene-corporal/perfumeria",
         "noFollow": true,
-        "tagTitle": "PLATS A ESCALFAR",
-        "text": "PLATS A ESCALFAR"
+        "tagTitle": "Perfumería",
+        "text": "PPerfumería"
       }
     }
   },
@@ -951,74 +864,183 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/plats-cuinats/plats-unics",
+        "href": "/cuidado-personal/higiene-corporal/hidratacion-corporal",
         "noFollow": true,
-        "tagTitle": "PLATS ÚNICS",
-        "text": "PLATS ÚNICS"
+        "tagTitle": "Hidratación Corporal",
+        "text": "Hidratación Corporal"
       }
     }
   },
-  "menu-item#department-3-category-7": {
+  "menu#department-3-submenu-col-2": {
     "props": {
-      "id": "menu-item-department-3-category-7",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/plats-cuinats/salses-i-pasta-fresca",
-        "noFollow": true,
-        "tagTitle": "SALSES I PASTA FRESCA",
-        "text": "SALSES I PASTA FRESCA"
-      }
+        "orientation": "vertical",
+        "experimentalOptimizeRendering": true,
+        "tagTitle": "Submenu",
+        "blockClass": "header-department-submenu-col"
+    },
+    "children": [
+      "menu-item#department-3-category-1-col-2",
+      "menu-item#department-3-category-2-col-2",
+      "menu-item#department-3-category-3-col-2",
+      "menu-item#department-3-category-4-col-2",
+      "menu-item#department-3-category-5-col-2"
+    ]
+},
+"menu-item#department-3-category-1-col-2": {
+  "props": {
+    "id": "menu-item-department-3-category-1-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidado-personal/cabello",
+      "noFollow": true,
+      "tagTitle": "Cabello",
+      "text": "Cabello"
+    },
+    "blockClass":"header-department-category-title"
+  }
+},
+"menu-item#department-3-category-2-col-2": {
+  "props": {
+    "id": "menu-item-department-3-category-2-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidado-personal/cabello/champus",
+      "noFollow": true,
+      "tagTitle": "Champús",
+      "text": "Champús"
     }
-  },
-  "menu-item#department-3-category-8": {
-    "props": {
-      "id": "menu-item-department-3-category-8",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/plats-cuinats/truites",
-        "noFollow": true,
-        "tagTitle": "TRUITES",
-        "text": "TRUITES"
-      }
+  }
+},
+"menu-item#department-3-category-3-col-2": {
+  "props": {
+    "id": "menu-item-department-3-category-3-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidado-personal/cabello/acondicionadores",
+      "noFollow": true,
+      "tagTitle": "Acondicionadores",
+      "text": "Acondicionadores"
     }
-  },
-  "menu-item#department-3-category-9": {
-    "props": {
-      "id": "menu-item-department-3-category-9",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/plats-cuinats/verdura-i-amanides",
-        "noFollow": true,
-        "tagTitle": "VERDURA I AMANIDES",
-        "text": "VERDURA I AMANIDES"
-      }
+  }
+},
+"menu-item#department-3-category-4-col-2": {
+  "props": {
+    "id": "menu-item-department-3-category-4-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidado-personal/cabello/cuidado-y-tratamiento",
+      "noFollow": true,
+      "tagTitle": "Cuidado y Tratamiento",
+      "text": "Cuidado y Tratamiento"
     }
-  },
-  "menu-item#department-3-category-10": {
-    "props": {
-      "id": "menu-item-department-3-category-10",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Department 3 Category 10",
-        "text": ""
-      }
+  }
+},
+"menu-item#department-3-category-5-col-2": {
+  "props": {
+    "id": "menu-item-department-3-category-5-col-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuidado-personal/cabello/fijadores",
+      "noFollow": true,
+      "tagTitle": "Fijadores",
+      "text": "Fijadores"
     }
+  }
+},
+"menu#department-3-submenu-col-3": {
+  "props": {
+      "orientation": "vertical",
+      "experimentalOptimizeRendering": true,
+      "tagTitle": "Submenu",
+      "blockClass": "header-department-submenu-col"
   },
-  "flex-layout.col#department-3-submenu-col-2": {
+  "children": [
+    "menu-item#department-3-category-1-col-3",
+    "menu-item#department-3-category-2-col-3",
+    "menu-item#department-3-category-3-col-3",
+    "menu-item#department-3-category-4-col-3"
+  ]
+},
+"menu-item#department-3-category-1-col-3": {
+"props": {
+  "id": "menu-item-department-3-category-1-col-3",
+  "type": "custom",
+  "iconId": null,
+  "highlight": false,
+  "itemProps": {
+    "type": "internal",
+    "href": "/cuidado-personal/boca-y-sonrisa",
+    "noFollow": true,
+    "tagTitle": "Boca y Sonrisa",
+    "text": "Boca y Sonrisa"
+  },
+  "blockClass":"header-department-category-title"
+}
+},
+"menu-item#department-3-category-2-col-3": {
+"props": {
+  "id": "menu-item-department-3-category-2-col-3",
+  "type": "custom",
+  "iconId": null,
+  "highlight": false,
+  "itemProps": {
+    "type": "internal",
+    "href": "/cuidado-personal/boca-y-sonrisa/dentifico",
+    "noFollow": true,
+    "tagTitle": "Dentífrico",
+    "text": "Dentífrico"
+  }
+}
+},
+"menu-item#department-3-category-3-col-3": {
+"props": {
+  "id": "menu-item-department-3-category-3-col-3",
+  "type": "custom",
+  "iconId": null,
+  "highlight": false,
+  "itemProps": {
+    "type": "internal",
+    "href": "/cuidado-personal/boca-y-sonrisa/enjuague-bucal",
+    "noFollow": true,
+    "tagTitle": "Enjuague Bucal",
+    "text": "Enjuague Bucal"
+  }
+}
+},
+"menu-item#department-3-category-4-col-3": {
+"props": {
+  "id": "menu-item-department-3-category-4-col-3",
+  "type": "custom",
+  "iconId": null,
+  "highlight": false,
+  "itemProps": {
+    "type": "internal",
+    "href": "/cuidado-personal/boca-y-sonrisa/cepillos",
+    "noFollow": true,
+    "tagTitle": "Cepillos",
+    "text": "Cepillos"
+  }
+}
+},
+
+
+
+  "flex-layout.col#department-3-submenu-col-4": {
     "children": [
       "flex-layout.row#department-3-banner-1",
       "flex-layout.row#department-3-banner-2"
@@ -1057,10 +1079,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-y-bebidas/alimentos/helados",
+        "href": "/bebes-y-ninos",
         "noFollow": true,
-        "tagTitle": "Helados",
-        "text": "HELADOS"
+        "tagTitle": "Bebés y Niños",
+        "text": "BEBÉS Y NIÑOS"
       },
       "blockClass":"header-department-title"
     },
@@ -1101,10 +1123,7 @@
       "menu-item#department-4-category-4",
       "menu-item#department-4-category-5",
       "menu-item#department-4-category-6",
-      "menu-item#department-4-category-7",
-      "menu-item#department-4-category-8",
-      "menu-item#department-4-category-9",
-      "menu-item#department-4-category-10"
+      "menu-item#department-4-category-7"
     ]
   },
   "menu-item#department-4-category-1": {
@@ -1115,10 +1134,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lactics-i-ous",
+        "href": "/bebes-y-ninos/",
         "noFollow": true,
-        "tagTitle": "VEURE TOTS",
-        "text": "VEURE TOTS"
+        "tagTitle": "Bebés y Niños",
+        "text": "Bebés y Niños"
       },
       "blockClass":"header-department-category-title"
     }
@@ -1131,10 +1150,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lactics-i-ous/begudes-vegetals",
+        "href": "/bebes-y-ninos/gel-de-bano",
         "noFollow": true,
-        "tagTitle": "BEGUDES VEGETALS",
-        "text": "BEGUDES VEGETALS"
+        "tagTitle": "Gel de Baño",
+        "text": "Gel de Baño"
       }
     }
   },
@@ -1146,10 +1165,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lactics-i-ous/formatges",
+        "href": "/bebes-y-ninos/champu",
         "noFollow": true,
-        "tagTitle": "FORMATGES",
-        "text": "FORMATGES"
+        "tagTitle": "Champú",
+        "text": "Champú"
       }
     }
   },
@@ -1161,10 +1180,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lactics-i-ous/iogurts",
+        "href": "/bebes-y-ninos/locion-corporal",
         "noFollow": true,
-        "tagTitle": "IOGURTS",
-        "text": "IOGURTS"
+        "tagTitle": "Loción Corporal",
+        "text": "Loción Corporal"
       }
     }
   },
@@ -1176,10 +1195,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lactics-i-ous/llet",
+        "href": "/bebes-y-ninos/toallitas",
         "noFollow": true,
-        "tagTitle": "LLET",
-        "text": "LLET"
+        "tagTitle": "Toallitas",
+        "text": "Toallitas"
       }
     }
   },
@@ -1191,10 +1210,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lactics-i-ous/nata-i-mantega",
+        "href": "/bebes-y-ninos/jabon",
         "noFollow": true,
-        "tagTitle": "NATA I MANTEGA",
-        "text": "NATA I MANTEGA"
+        "tagTitle": "Jabón",
+        "text": "Jabón"
       }
     }
   },
@@ -1206,73 +1225,28 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lactics-i-ous/ous-frescos",
+        "href": "/bebes-y-ninos/neceser",
         "noFollow": true,
-        "tagTitle": "OUS FRESCOS",
-        "text": "OUS FRESCOS"
-      }
-    }
-  },
-  "menu-item#department-4-category-8": {
-    "props": {
-      "id": "menu-item-department-4-category-8",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lactics-i-ous/postres-i-flam",
-        "noFollow": true,
-        "tagTitle": "POSTRES I FLAM",
-        "text": "POSTRES I FLAM"
-      }
-    }
-  },
-  "menu-item#department-4-category-9": {
-    "props": {
-      "id": "menu-item-department-4-category-9",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Department 4 Category 9",
-        "text": ""
-      }
-    }
-  },
-  "menu-item#department-4-category-10": {
-    "props": {
-      "id": "menu-item-department-4-category-10",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Department 4 Category 10",
-        "text": ""
+        "tagTitle": "Neceser",
+        "text": "Neceser"
       }
     }
   },
   "flex-layout.col#department-4-submenu-col-2": {
     "children": [
-      "info-card#helados"
+      "info-card#bebes-y-ninos"
     ],
     "title": "Right Category Banners"
   },
-  "info-card#helados": {
+  "info-card#bebes-y-ninos": {
     "props": {
       "id": "info-card-helados",
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "assets/benjerrys.jpeg",
-      "headline": "Ben & Jerry's en promocions",
+      "headline": "Mejores productos para bebés",
       "callToActionText": "Navegar",
-      "callToActionUrl": "/helados",
+      "callToActionUrl": "/bebes-y-ninos",
       "blockClass": "info-card-helados",
       "textAlignment": "center"
     },
@@ -1544,7 +1518,7 @@
   },
   "menu-item#department-6": {
     "props": {
-      "id": "menu-item-deparment-1",
+      "id": "menu-item-deparment-6",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -1558,21 +1532,16 @@
       "blockClass":"header-promotions-title"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#department-10"
+      "vtex.menu@2.x:submenu#department-6"
     ]
   },
-  "vtex.menu@2.x:submenu#department-10": {
+  "vtex.menu@2.x:submenu#department-6": {
     "props": {
       "width": "100%"
       
     },
     "children": [
       "info-card#promoheader"
-    ]
-  },
-  "flex-layout.row#department-10-submenu": {
-    "children": [
-      
     ]
   },
   
@@ -1589,5 +1558,33 @@
       "textAlignment": "center"
     },
     "title": "Infocard Promotions"
+  },
+  "menu-item#department-7": {
+    "props": {
+      "id": "menu-item-deparment-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": true,
+        "tagTitle": "MARCAS",
+        "text": "MARCAS"
+      },
+      "blockClass":"header-promotions-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-7"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-7": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#home-brands"
+    ]
   }
 }

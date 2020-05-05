@@ -9,9 +9,10 @@
       "flex-layout.row#home-tabs",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "rich-text#shelf-title2",
+      "flex-layout.row#shelf2",
+      "rich-text#shelf-title3",
+      "flex-layout.row#shelf3"
     ]
   },
   "flex-layout.row#home-tabs":{ 
@@ -136,11 +137,15 @@
       "height": 720, 
       "images": [
         {
-          "image": "assets/bannerunilever.jpg",
+          "image": "assets/bannerunilever5.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "image": "assets/bannerunilever2.jpg",
+          "image": "assets/bannerunilever4.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "assets/bannerunilever3.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
@@ -166,10 +171,44 @@
       "tag": "h1"
     }
   },
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## Más vendidos",
+      "blockClass": "shelfTitle",
+      "tag": "h1"
+    }
+  },
+  "rich-text#shelf-title3": {
+    "props": {
+      "text": "## Indicados",
+      "blockClass": "shelfTitle",
+      "tag": "h1"
+    }
+  },
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#home-shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#demo2"]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#home-shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "flex-layout.row#shelf3": {
+    "children": ["list-context.product-list#demo3"]
+  },
+  "list-context.product-list#demo3": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#home-shelf"],
     "props": {

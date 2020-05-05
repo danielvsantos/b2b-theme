@@ -1,7 +1,7 @@
 {
   "vendor": "unileverb2b",
   "name": "store-theme",
-  "version": "0.0.9",
+  "version": "0.0.17",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",

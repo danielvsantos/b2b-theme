@@ -5,11 +5,10 @@
           "product-summary-name",
           "product-summary-brand",
           "flex-layout.row#product-summary-specification-badges-info",
-          "product-list-price#summary",
-          "flex-layout.row#selling-price-savings",
+          "challenge-block#price-summary",
           "product-summary-quantity",
           "product-summary-sku-selector#shelf",
-          "add-to-cart-button"
+          "challenge-block#add-to-cart-summary"
         ]
       },
       "flex-layout.row#product-summary-specification-badges-info":{
@@ -154,7 +153,7 @@
 
 
 
-      "challenge-block#description": {
+      "challenge-block#price-summary": {
         "blocks": [
           "challenge-content#description",
           "challenge-fallback#description"
@@ -162,19 +161,39 @@
       },
        "challenge-content#description": {
          "children": [
-           "product-list-price#summary"
+          "flex-layout.row#selling-price-savings"
          ]
        },
        "challenge-fallback#description": {
          "children": [
-           "rich-text#challenge-description"
          ]
        },
-       "rich-text#challenge-description": {
-         "props": {
-           "text": "Please login to see the price",
-           "blockClass": "challengeDescription"
-         }
+       "modal-trigger#register-summary": {
+        "children": [
+          "rich-text#register-summary",
+          "modal-layout#register"
+        ]
+      },
+       "rich-text#register-summary": {
+        "props": {
+          "text": "Registra para ver precios",
+          "blockclass": "register-summary"
+        }
+      },
+      "challenge-block#add-to-cart-summary": {
+        "blocks": [
+          "challenge-content#add-to-cart-summary",
+          "challenge-fallback#add-to-cart-summary"
+        ]
+      },
+       "challenge-content#add-to-cart-summary": {
+         "children": [
+          "add-to-cart-button"
+         ]
+       },
+       "challenge-fallback#add-to-cart-summary": {
+         "children": [
+          "modal-trigger#register-summary"
+         ]
        }
-    
 }

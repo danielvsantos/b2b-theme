@@ -4,7 +4,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#description",
-      "shelf.relatedProducts",
+      "shelf.relatedProducts#quemViuViutambem",
       "product-reviews",
       "product-questions-and-answers"
     ]
@@ -103,15 +103,14 @@
     "children": [
       "flex-layout.row#product-name",
       "product-rating-summary",
-      "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
+      "challenge-block#product-price",
       "product-separator",
       "product-identifier.product",
       "sku-selector#product",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
-      "flex-layout.row#buy-button",
+      "challenge-block#add-to-cart-product",
       "availability-subscriber",
       "share#default"
     ]
@@ -125,7 +124,34 @@
       "vtex.store-components:product-name"
     ]
   },
-
+  "challenge-block#product-price": {
+    "blocks": [
+      "challenge-content#product-price",
+      "challenge-fallback#description"
+    ]
+  },
+   "challenge-content#product-price": {
+     "children": [
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price"
+     ]
+   },
+   "challenge-block#add-to-cart-product": {
+    "blocks": [
+      "challenge-content#add-to-cart-product",
+      "challenge-fallback#add-to-cart-product"
+    ]
+  },
+   "challenge-content#add-to-cart-product": {
+     "children": [
+      "flex-layout.row#buy-button"
+     ]
+   },
+   "challenge-fallback#add-to-cart-product": {
+     "children": [
+      "modal-trigger#register-summary"
+     ]
+   },
   "sku-selector#product": {
     "props": {
       "variationsSpacing": 3,
@@ -147,6 +173,12 @@
       "marginBottom": 7
     },
     "children": ["add-to-cart-button"]
+  },
+  "shelf.relatedProducts#quemViuViutambem":{ 
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "recommendation": "view"
+    }
   },
 
   "share#default": {

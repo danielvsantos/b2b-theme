@@ -38,11 +38,13 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "marginBottom": 4,
+      "blockClass": "list-price-summary"
     },
     "children": [
+      "product-list-price",
       "product-selling-price#summary",
-      "product-price-savings#summary"
+      "product-price-savings"
     ]
   },
 
@@ -52,11 +54,12 @@
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "marginBottom": 2,
-      "marginTop": 5
+      "marginTop": 5,
+      "blockClass": "list-price-summary"
     },
     "children": [
-      "product-list-price",
-      "product-price-savings"
+      "product-list-price"
+      
     ]
   },
   "product-price": {

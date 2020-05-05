@@ -17,16 +17,29 @@
   } 
 }
 
-.nameContainer {
-  justify-content: start;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.containerNormal {
+  background-color: #ffffff;
+  border-radius: 0;
+  margin: 5px 0;  
+  height: auto;
+  transition: box-shadow 0.3s ease-in-out, transform 0.2s;
+  position: relative;
 }
+
+.nameContainer,
+.productNameContainer {
+  min-height: 50px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
 
 .brandName {
   font-weight: 600;
   font-size: 18px;
   color: #2E2E2E;
+  align-items: center;
 }
 
 .container {
@@ -63,4 +76,20 @@
 .productBrandName { 
   font-size: 18px;
   font-weight: bold;
+}
+
+
+.listPriceLabel {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-weight: 900;
+  font-size: 36px;
+  padding: 0;
+}
+
+.listPrice {
+  font-size: 16px;
+  color: #757575;
+  line-height: 1;
+  text-decoration: line-through;
 }

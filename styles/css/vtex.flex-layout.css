@@ -105,3 +105,11 @@
   border-left: black 2px;
 }
 
+
+
+/* Product Summary */ 
+
+.flexRow--list-price-summary {
+  min-height: 35px;
+  margin: auto;
+}

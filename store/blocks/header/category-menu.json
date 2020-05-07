@@ -852,7 +852,7 @@
         "href": "/cuidado-personal/higiene-corporal/perfumeria",
         "noFollow": true,
         "tagTitle": "Perfumería",
-        "text": "PPerfumería"
+        "text": "Perfumería"
       }
     }
   },
@@ -868,6 +868,21 @@
         "noFollow": true,
         "tagTitle": "Hidratación Corporal",
         "text": "Hidratación Corporal"
+      }
+    }
+  },
+  "menu-item#department-3-category-7": {
+    "props": {
+      "id": "menu-item-department-3-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal/higiene-corporal/limpieza-de-la-piel",
+        "noFollow": true,
+        "tagTitle": "Limpieza de la piel",
+        "text": "Limpieza de la piel"
       }
     }
   },
@@ -1244,9 +1259,9 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "assets/benjerrys.jpeg",
-      "headline": "Mejores productos para bebés",
+      "headline": "Mejores productos para el verano",
       "callToActionText": "Navegar",
-      "callToActionUrl": "/bebes-y-ninos",
+      "callToActionUrl": "/alimentos",
       "blockClass": "info-card-helados",
       "textAlignment": "center"
     },
@@ -1272,246 +1287,6 @@
   "image#department-4-banner-2":{
     "props":{
       "src": "/arquivos/Banners-ous-ecos-275x102.jpg?v=636947130227630000",
-      "maxHeight": 200
-    },
-    "title": "Bottom Banner"
-  },
-  "menu-item#department-5": {
-    "props": {
-      "id": "menu-item-department-5",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria",
-        "noFollow": true,
-        "tagTitle": "CARN",
-        "text": "CARN"
-      },
-      "blockClass":"header-department-title"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#department-5"
-    ]
-  },
-  "vtex.menu@2.x:submenu#department-5": {
-    "props": {
-      "width": "100%"
-      
-    },
-    "children": [
-      "flex-layout.row#department-5-submenu"
-    ]
-  },
-  "flex-layout.row#department-5-submenu": {
-    "children": [
-      "flex-layout.col#department-5-submenu-col-1",
-      "flex-layout.col#department-5-submenu-col-2"
-    ]
-  },
-  "flex-layout.col#department-5-submenu-col-1": {
-    "children": [
-      "vtex.menu@2.x:menu#department-5-submenu"
-    ],
-    "title": "Left Category Links"
-  },
-  "vtex.menu@2.x:menu#department-5-submenu": {
-    "props": {
-      "orientation": "vertical",
-      "tagTitle": "Submenu"
-    },
-    "children": [
-      "menu-item#department-5-category-1",
-      "menu-item#department-5-category-2",
-      "menu-item#department-5-category-3",
-      "menu-item#department-5-category-4",
-      "menu-item#department-5-category-5",
-      "menu-item#department-5-category-6",
-      "menu-item#department-5-category-7",
-      "menu-item#department-5-category-8",
-      "menu-item#department-5-category-9",
-      "menu-item#department-5-category-10"
-    ]
-  },
-  "menu-item#department-5-category-1": {
-    "props": {
-      "id": "menu-item-department-5-category-1",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria",
-        "noFollow": true,
-        "tagTitle": "VEURE TOTS",
-        "text": "VEURE TOTS"
-      },
-      "blockClass":"header-department-category-title"
-    }
-  },
-  "menu-item#department-5-category-2": {
-    "props": {
-      "id": "menu-item-department-5-category-2",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria/botifarres-hamburgueses-i-elaborats",
-        "noFollow": true,
-        "tagTitle": "BOTIFARRES, HAMBURGUESES I ELABORATS",
-        "text": "BOTIFARRES, HAMBURGUESES I ELABORATS"
-      }
-    }
-  },
-  "menu-item#department-5-category-3": {
-    "props": {
-      "id": "menu-item-department-5-category-3",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria/cabrit-i-xai",
-        "noFollow": true,
-        "tagTitle": "CABRIT I XAI",
-        "text": "CABRIT I XAI"
-      }
-    }
-  },
-  "menu-item#department-5-category-4": {
-    "props": {
-      "id": "menu-item-department-5-category-4",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria/conill",
-        "noFollow": true,
-        "tagTitle": "CONILL",
-        "text": "CONILL"
-      }
-    }
-  },
-  "menu-item#department-5-category-5": {
-    "props": {
-      "id": "menu-item-department-5-category-5",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria/pernil-embotits-i-pates",
-        "noFollow": true,
-        "tagTitle": "PERNIL, EMBOTITS I PATÉS",
-        "text": "PERNIL, EMBOTITS I PATÉS"
-      }
-    }
-  },
-  "menu-item#department-5-category-6": {
-    "props": {
-      "id": "menu-item-department-5-category-6",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria/pollastre-gall-dindi-anec",
-        "noFollow": true,
-        "tagTitle": "POLLASTRE, GALL DINDI, ÀNEC",
-        "text": "POLLASTRE, GALL DINDI, ÀNEC"
-      }
-    }
-  },
-  "menu-item#department-5-category-7": {
-    "props": {
-      "id": "menu-item-department-5-category-7",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria/porc",
-        "noFollow": true,
-        "tagTitle": "PORC",
-        "text": "PORC"
-      }
-    }
-  },
-  "menu-item#department-5-category-8": {
-    "props": {
-      "id": "menu-item-department-5-category-8",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria/proteina-vegetal",
-        "noFollow": true,
-        "tagTitle": "PROTEÏNA VEGETAL",
-        "text": "PROTEÏNA VEGETAL"
-      }
-    }
-  },
-  "menu-item#department-5-category-9": {
-    "props": {
-      "id": "menu-item-department-5-category-9",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/carn-i-xarcuteria/vedella-i-vaca",
-        "noFollow": true,
-        "tagTitle": "VEDELLA I VACA",
-        "text": "VEDELLA I VACA"
-      }
-    }
-  },
-  "menu-item#department-5-category-10": {
-    "props": {
-      "id": "menu-item-department-5-category-10",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Department 5 Category 10",
-        "text": ""
-      }
-    }
-  },
-  "flex-layout.col#department-5-submenu-col-2": {
-    "children": [
-      "flex-layout.row#department-5-banner-1",
-      "flex-layout.row#department-5-banner-2"
-    ],
-    "title": "Right Category Banners"
-  },
-  "flex-layout.row#department-5-banner-1": {
-    "children":["image#department-5-banner-1"],
-    "props": {
-      }
-  },
-  "image#department-5-banner-1":{
-    "props":{
-      "src": "arquivos/Banners-embotits-275X102.jpg?v=636947126862570000",
-      "maxHeight": 200
-    },
-    "title": "Top Banner"
-  },
-  "flex-layout.row#department-5-banner-2": {
-    "children":["image#department-5-banner-2"],
-    "props": {
-      }
-  },
-  "image#department-5-banner-2":{
-    "props":{
-      "src": "/arquivos/Banners-hamburgueses-275X102.jpg?v=636947127994030000",
       "maxHeight": 200
     },
     "title": "Bottom Banner"

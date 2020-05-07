@@ -63,6 +63,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
+      "list-context.image-list#search",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -80,6 +81,30 @@
     "props": {
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  "list-context.image-list#search": {
+    "children": ["slider-layout#search-banners"],
+    "props": {
+      "height": 720, 
+      "images": [
+        {
+          "image": "assets/bannerunilever4.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#search-banners": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
     }
   },
   "flex-layout.row#searchtitle": {
